@@ -17,6 +17,10 @@ export class UsercomponentComponent implements OnInit {
     this.user.setUserName("Juan Topo");
     //asignamos el valor al atributo userName.
     this.userName = this.user.getUserName();
+
+    //TODO: asignar una edad. 
+
+    //TODO: obtener edad y mostrarla en el componente.
   }
 
 }
